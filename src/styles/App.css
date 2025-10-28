@@ -1,0 +1,41 @@
+div{
+    display:flex;
+    justify-content: center;
+}
+#todo{
+    width: 25vw;
+    flex-direction: column;
+    align-items: center;
+}
+#lista{
+    width: 25vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+
+}
+.ele{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+form{
+    width:100%
+}
+input{
+    width:100%
+}
+.boton{
+    opacity: 0;
+    transition: 300ms;
+}
+.ele:hover .boton ,.boton:hover{
+    opacity: 1;
+}
+.select:hover{
+    cursor: pointer;
+    background-color: grey;
+}
